@@ -1,0 +1,272 @@
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/vectors/vector_1_x2.svg">
+    <title>Aisale.kz</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Подключение пользовательских стилей -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header bg-light shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center ">
+            <div class="logo d-flex align-items-center">
+                <img src="/vectors/vector_1_x2.svg" alt="Aisale.kz Logo" class="me-2">
+                <span class="h5 mb-0 custom-color">aisale.kz</span>
+            </div>
+            <nav class="nav-menu d-none d-md-flex gap-4">
+                <a href="#" class="text-dark  ">Главная</a>
+                <a href="#" class="text-dark ">Продукты</a>
+                <a href="#" class="text-dark ">О нас</a>
+            </nav>
+            <div class="contact-info d-flex align-items-center gap-2">
+                <i class="fas fa-phone-alt custom-icon"></i>
+                <span>+7 (708) 763 87 39</span>
+                <a href="#" class="btn btn-primary ms-3">Заказать звонок</a>
+            </div>
+            <!-- Кнопка для мобильного меню -->
+            <button class="mobile-menu-toggle btn btn-outline-secondary d-md-none" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+
+    <!-- Скрипт для мобильного меню -->
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-menu');
+            menu.classList.toggle('d-none');
+        }
+    </script>
+
+    <!-- img Section -->
+    <!-- <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas>
+    </div> -->
+    <!-- <section class="hero text-center" style="background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), url('images/image_3.png') center/cover no-repeat; height: 350px;">
+        </section> -->
+<section class="hero text-center large-header" id="large-header" style="position: relative;">
+            <canvas id="demo-canvas"></canvas>
+</section>
+        
+        
+
+  <section class="hero-section">
+    <div class="container h-100 d-flex flex-column justify-content-center">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 text-center text-md-start">
+                <h1 class="fw-bold mb-4">Голосовой робот для обзвона клиентов</h1>
+                <div class="d-flex justify-content-md-start justify-content-center gap-5 mb-4">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fas fa-phone-volume fa-2x custom-icon"></i> <!-- Увеличение иконки -->
+                        <p class="mb-0">Обзвон клиентов</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fas fa-comments fa-2x custom-icon"></i> <!-- Увеличение иконки -->
+                        <p class="mb-0">Переписка с клиентами</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fas fa-bolt fa-2x custom-icon"></i> <!-- Увеличение иконки -->
+                        <p class="mb-0">До 100 звонков в день</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content">
+                  <a href="#" class="btn btn-primary btn-lg" >Оставить заявку</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Information Section -->
+<section class="information text-white py-5 position-relative" style="background: url('images/information.jpeg') center/cover no-repeat; height: 500px;">
+    <div class="overlay"></div>
+    <div class="container text-center d-flex flex-column justify-content-center h-100 position-relative">
+        <div class="company-info">
+            <img src="/vectors/vector_1_x2.svg" alt="Логотип компании" class="company-logo mb-3">
+            <h2 class="h4">AISALE.KZ</h2>
+            <p class="company-description mt-4">
+                Ваш надежный партнер в автоматизации бизнеса! Используя передовые технологии искусственного интеллекта, 
+                мы помогаем компаниям повышать эффективность продаж, улучшать клиентский сервис и оптимизировать бизнес-процессы.
+            </p>
+            <p class="company-description">
+                Вместе с нами вы сможете достичь новых высот в управлении и развитии вашего бизнеса. Начните трансформировать свою компанию уже сегодня с AISALE!
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Voice section-->
+
+<div class="container text-center">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h1 class="fw-bold mb-4">Послушайте и убедитесь сами!</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6">
+            <div class="example mb-4" style="background-color: #f0f0f0; color: #333333;">
+                <p>Здесь будет пример или иллюстрация</p>
+            </div>
+        </div>
+        <div class="col-lg-6 text-start">
+            <h2 class="fw-bold">Запись на прием</h2>
+            <p>Здесь будет описание ситуации. Здесь будет описание ситуации. Здесь будет описание ситуации. Здесь будет описание ситуации.</p>
+            <div class="buttons d-flex gap-2">
+                <button class="btn btn-listen btn-lg">ПОСЛУШАТЬ</button>
+                <button class="btn btn-more btn-lg">ПОДРОБНЕЕ</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----- -->
+<div class="container mt-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <div class="content">
+                <h1 class="fw-bold">Оформление покупки</h1>
+                <p class="text-muted">Здесь будет описание ситуации. Здесь будет описание ситуации. Здесь будет описание ситуации. Здесь будет описание ситуации. Здесь будет описание ситуации. Здесь будет описание ситуации. Здесь будет описание ситуации.</p>
+                <div class="buttons mt-4">
+                    <button class="btn btn-listen btn-lg me-3">ПОСЛУШАТЬ</button>
+                    <button class="btn btn-more btn-lg">ПОДРОБНЕЕ</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <div class="example mb-4"style="background-color: #f0f0f0; color: #333333;">
+                Здесь будет пример или иллюстрация
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------- -->
+
+<div class="container  mt-5">
+    <div class="row align-items-center">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6">
+                <div class="example mb-4" style="background-color: #f0f0f0; color: #333333;">
+                    <p>Здесь будет пример или иллюстрация</p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-start">
+                <h2 class="fw-bold">Прием заказов</h2>
+                <p>Здесь будет описание ситуации. Здесь будет описание ситуации. Здесь будет описание ситуации. Здесь будет описание ситуации.</p>
+                <div class="buttons d-flex gap-2">
+                    <button class="btn btn-listen btn-lg">ПОСЛУШАТЬ</button>
+                    <button class="btn btn-more btn-lg">ПОДРОБНЕЕ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Services Section -->
+    <section class="services py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-phone-square-alt fa-2x custom-icon mb-3"></i>
+                    <h3>«Холодный» обзвон</h3>
+                    <p>Потенциальные клиенты</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-poll fa-2x custom-icon mb-3"></i>
+                    <h3>Информирование и опросы</h3>
+                    <p>Исследования рынка</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-shopping-cart fa-2x custom-icon mb-3"></i>
+                    <h3>Ежедневные звонки</h3>
+                    <p>Прямые продажи</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Ответы на часто задаваемые вопросы</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            На каких языках говорит робот?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Робот поддерживает несколько языков, включая русский и английский.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Определяет ли робот автоответчики?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Да, робот способен распознавать автоответчики.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Остались вопросы?</h2>
+            <p class="text-center">Задайте свой вопрос прямо здесь, и мы Вам перезвоним…</p>
+            <form class="d-flex flex-column align-items-center">
+                <div class="mb-3 w-50">
+                    <input type="text" name="name" class="form-control" placeholder="Ваше имя" required>
+                </div>
+                <div class="mb-3 w-50">
+                    <input type="email" name="email" class="form-control" placeholder="Ваш e-mail" required>
+                </div>
+                <div class="mb-3 w-50">
+                    <input type="tel" name="phone" class="form-control" placeholder="(999) 999 99 99" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Оформить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo d-flex align-items-center">
+                <img src="/vectors/vector_1_x2.svg" alt="Логотип Aisale.kz" class="me-2">
+                <span>AISALE.KZ</span>
+            </div>
+            <div class="contact-info d-flex flex-column text-end">
+                <p><i class="fas fa-phone-alt me-2"></i>+7 (776) 829 73 18</p>
+                <p><i class="fas fa-envelope me-2"></i>Mail@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение Bootstrap и Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
